@@ -1,0 +1,28 @@
+
+@use "../../presets/" as *;
+@use "../../mixins/" as *;
+
+.header-content {
+  z-index: 1;
+  width: 100%;
+ text-align: center;
+
+ &_container {
+  max-width: 1340px;
+  padding-right: $gap;
+  padding-left: $gap;
+ }
+ 
+ &_title {
+    margin: 0 0 53px;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    .btn:first-of-type {
+      margin-right: $gap;
+    }
+  }
+}
+

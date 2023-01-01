@@ -1,0 +1,15 @@
+@use "../../presets/" as *;
+@use "../../mixins/" as *;
+.about {
+    background-color: $color-gray-light;
+}
+.about_image {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+}
+.about_image img {
+    width: 200px;
+    height: 450px;
+    float: left;
+}
